@@ -1,0 +1,20 @@
+<resources>
+    <string name="exercise_db">ExerciseDatabase.db</string>
+    <string name="app_name">Exercise Time!</string>
+    <string name="exercise_time">Exercise Time!</string>
+    <string name="view_statistics">View statistics</string>
+    <string name="load_workout_plan">Load workout plan</string>
+    <string name="create_new_workout_plan">Create new workout plan</string>
+    <string name="name_of_new_workout_plan">Name of new workout plan:</string>
+    <string name="duration_of_workout_minutes">Duration of workout: (minutes)</string>
+    <string name="e_g_leg_day">E.g. Leg day</string>
+    <string name="create_workout">Create Workout</string>
+    <string name="statistics_viewer">Statistics Viewer</string>
+    <string name="workouts_done">Workouts done:</string>
+    <string name="time_spent_working_out">Time spent working out:</string>
+    <string name="_60">60</string>
+    <string name="start_next_exercise">Start/Next Exercise</string>
+    <string name="exercise_timer">Exercise Timer</string>
+    <string name="set_1_3">Set 1/3</string>
+    <string name="bicep_curls">Bicep Curls</string>
+</resources>

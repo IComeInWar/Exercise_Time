@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="679dp"
+        android:text="Workout Plan Viewer:" />
+
+    <Button
+        android:id="@+id/button_AddNewE"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="201dp"
+        android:text="Add new exercise:"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/gotoScreen6"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="262dp"
+        android:text="Add new exercise:"
+        tools:ignore="HardcodedText" />
+
+    <GridView
+        android:id="@+id/Screen4Grid"
+        android:layout_width="308dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="322dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id = "@+id/Screen4Recycler"
+        android:layout_width="310dp"
+        android:layout_height="182dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="14dp" />
+
+</RelativeLayout>
